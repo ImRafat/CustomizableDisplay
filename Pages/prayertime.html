@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prayer Time</title>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="../css/prayertime.css?v=4">
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/app.js?v=17"></script>
+        <link rel="icon" href="../content/favicon.png" type="image/png">
+        <link rel="canonical" href="https://icdcmasjid.org/pages/prayertime.html">
+    </head>
+<body>
+    <a href="https://mrafat.com" style="display:none">THIS WEBSITE WAS DEVELOPED BY MOHAMMED RAFAT. https://mrafat.com</a>
+    <div class="wrapper">
+        <div class="prayerSchedule" id="prayerSchedule">
+            <ul class="sunrise">
+                <li class="logoPrayer"><img src="../content/sunrise.png" alt="sunrise logo" class="prayerLogo"> <span class="prayerName">Sunrise</span> </li>
+                <li class="sunriseTime"></li>
+            </ul>
+            <ul class="prayerColumnHeaders">
+                <li class="salahHeader">Salah</li>
+                <li class="beginsHeader">Begins</li>
+                <li class="iqamahHeader">Iqamah</li>
+            </ul>
+            <ul class="prayerContent defaultFontSize">
+                <ul class="prayerTime fajrPrayer">
+                    <li class="logoPrayer"><img src="../content/dawn.png" alt="dawn logo" class="prayerLogo"><span class="prayerName"> Fajr</span></li>
+                    <li class="begins"></li>
+                    <li class="iqamah"></li>
+                </ul>
+                <ul class="prayerTime dhuhrPrayer">
+                    <li class="logoPrayer"><img src="../content/day.png" alt="day time logo" class="prayerLogo"><span class="prayerName">Dhuhr</span></li>
+                    <li class="begins"></li>
+                    <li class="iqamah"></li>
+                </ul>
+                <ul class="prayerTime asrPrayer">
+                    <li class="logoPrayer"><img src="../content/evening.png" alt="evening logo" class="prayerLogo"><span class="prayerName">Asr</span></li>
+                    <li class="begins"></li>
+                    <li class="iqamah"></li>
+                </ul>
+                <ul class="prayerTime maghribPrayer">
+                    <li class="logoPrayer"><img src="../content/sunset.png" alt="sunset logo" class="prayerLogo"><span class="prayerName">Maghrib</span></li>
+                    <li class="begins"></li>
+                    <li class="iqamah"></li>
+                </ul>
+                <ul class="prayerTime ishaPrayer">
+                    <li class="logoPrayer"><img src="../content/night.png" alt="night time logo" class="prayerLogo"><span class="prayerName">Isha</span></li>
+                    <li class="begins"></li>
+                    <li class="iqamah"></li>
+                </ul>
+            </ul>
+            <div class="jumuahSchedule">
+                <h1 class="jumuahHeader">Jumuah</h1>
+                <ul class="jumuahContent defaultFontSize">
+                    <!-- <ul class="jumuahSection">
+                        <li class="khutbah">Khutbah</li>
+                        <li class="jumuahTime">1:10 PM</li>
+                    </ul> -->
+                    <ul class="jumuahSection">
+                        <li class="jumuahPrayer">Jumuah Prayer</li>
+                        <li class="jumuahTime"></li>
+                    </ul>                                
+                </ul>
+            </div>
+        </div>
+    <div class="rightSection">
+        <div class="clock">
+            <!--Dayspedia.com widget-->
+            <div class="DPDC" cityid="1601" lang="en" id="dayspedia_widget_24e47b3cba8dc9d2" host="https://dayspedia.com" ampm="true" nightsign="false" sun="false" style="background-image: url(&quot;https://cdn.dayspedia.com/img/widgets/bg-7.png&quot;); padding: 48px; border-width: 1px; background-color: rgb(78, 50, 50);">
+                <!-- <a class="DPl" href="https://dayspedia.com/time/us/Havertown/" target="_blank" style="display:block!important;text-decoration:none!important;border:none!important;cursor:pointer!important;background:transparent!important;line-height:0!important;text-shadow:none!important;position:absolute;z-index:1;top:0;right:0;bottom:0;left:0">
+                </a> -->
+                <div class="DPDCh" >Current Time in Havertown</div>
+                <div class="DPDCt">
+                <span class="DPDCth"></span><span class="DPDCtm"></span><span class="DPDCts" style="display: inline-block;"></span><span class="DPDCt12" >pm</span>
+                </div>
+                
+                <div class="DPDCd" style="font-size: 50px;">
+                <span class="DPDCdt">Sun, May 14</span><span class="DPDCtn" style="display: none; width: 20px; height: 20px;"><i></i></span>
+                </div>
+
+                <div class="DPDCs" style="display: none; font-size: 24px;">
+                <span class="DPDCsr">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12,4L7.8,8.2l1.4,1.4c0,0,0.9-0.9,1.8-1.8V14h2c0,0,0-3.3,0-6.2l1.8,1.8l1.4-1.4L12,4z"></path><path d="M6.8,15.3L5,13.5l-1.4,1.4l1.8,1.8L6.8,15.3z M4,21H1v2h3V21z M20.5,14.9L19,13.5l-1.8,1.8l1.4,1.4L20.5,14.9z M20,21v2h3 v-2H20z M6.1,23C6,22.7,6,22.3,6,22c0-3.3,2.7-6,6-6s6,2.7,6,6c0,0.3,0,0.7-0.1,1H6.1z"></path></svg>
+                    5:46 am<sup>am</sup>
+                </span>
+                <span class="DPDCsl">14:21</span>
+                <span class="DPDCss">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12,14L7.8,9.8l1.4-1.4c0,0,0.9,0.9,1.8,1.8V4h2c0,0,0,3.3,0,6.2l1.8-1.8l1.4,1.4L12,14z"></path><path d="M6.8,15.3L5,13.5l-1.4,1.4l1.8,1.8L6.8,15.3z M4,21H1v2h3V21z M20.5,14.9L19,13.5l-1.8,1.8l1.4,1.4L20.5,14.9z M20,21v2h3 v-2H20z M6.1,23C6,22.7,6,22.3,6,22c0-3.3,2.7-6,6-6s6,2.7,6,6c0,0.3,0,0.7-0.1,1H6.1z"></path></svg>
+                    8:07 pm<sup>pm</sup>
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="messageBox">
+            <h2 class="hadithTitle">Hadith</h2>
+            <p class="hadith" id="hadith"></p>
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>

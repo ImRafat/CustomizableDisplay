@@ -1,0 +1,20 @@
+{
+    "fajr":{
+        "staticTime": "4:45 AM"
+    },
+    "dhuhr":{
+        "staticTime":"1:30 PM"
+    },
+    "asr":{
+        "staticTime": "5:15 PM"
+    },
+    "maghrib":{
+        "addMinutes":5
+    },
+    "isha":{
+        "staticTime": "10:00 PM"
+    },
+    "jumuah":{
+        "staticTime": "1:30 PM"
+    }
+}
